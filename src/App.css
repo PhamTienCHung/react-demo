@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contain {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  height: 100vh;
+  background: black;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#094c72+98,01293f+100 */
+  background: rgb(9, 76, 114);
+  background: -webkit-radial-gradient(bottom, ellipse cover, rgb(3, 26, 39) 0%, rgb(1, 21, 32) 100%);
+  background: -webkit-radial-gradient(ellipse at bottom, rgb(2, 32, 49) 0%, rgb(1, 32, 49) 100%);
+  background: -webkit-radial-gradient(bottom, ellipse, rgb(5, 36, 54) 0%, rgb(2, 24, 36) 100%);
+  background: radial-gradient(ellipse at bottom, rgb(6, 39, 58) 0%, rgb(1, 27, 41) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#094c72', endColorstr='#01293f', GradientType=1);
+
+}
+
+.cardLeft {
+  display: flex;
+  width: 45vw;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.cardRight {
+  display: flex;
+  width: 45vw;
+  ;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.compScore {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userScore {
+  color: white;
 }

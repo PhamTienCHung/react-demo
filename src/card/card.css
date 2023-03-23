@@ -1,0 +1,39 @@
+.cardHolder {
+    width: 20em;
+    height: 40em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background: white;
+    border-radius: 5px;
+}
+.header {
+    background: #ffd61e;
+    padding: 1em;
+}
+img{
+    width: 20em;
+    height: 15em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20em;
+}
+
+.content div {
+    background: #ffd61e;
+    margin: 0 1em;
+    padding: 0.5em;
+    width: 12em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content div p {
+    margin: 0;
+}
