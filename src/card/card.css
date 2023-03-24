@@ -37,3 +37,7 @@ img{
 .content div p {
     margin: 0;
 }
+
+.selected {
+    background: greenyellow !important;
+}
