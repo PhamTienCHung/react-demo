@@ -194,7 +194,7 @@ function App() {
           {/* <Modal.Title>Modal heading</Modal.Title> */}
         </Modal.Header>
         <Modal.Body>{contentResult}</Modal.Body>
-        {(totalRound == 10) ? <Modal.Footer><Button onClick={resetGame}>Reset game</Button></Modal.Footer> : ''}
+        {(totalRound == 11) ? <Modal.Footer><Button onClick={resetGame}>Reset game</Button></Modal.Footer> : ''}
       </Modal>
 
     </div>
