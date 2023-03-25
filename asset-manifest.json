@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-demo/static/css/main.fb2de68a.css",
+    "main.js": "/react-demo/static/js/main.6f90280e.js",
+    "static/js/787.f055211e.chunk.js": "/react-demo/static/js/787.f055211e.chunk.js",
+    "static/media/Star_Wars_Logo.svg.png": "/react-demo/static/media/Star_Wars_Logo.svg.0d86a479d7822f6ee78d.png",
+    "index.html": "/react-demo/index.html",
+    "main.fb2de68a.css.map": "/react-demo/static/css/main.fb2de68a.css.map",
+    "main.6f90280e.js.map": "/react-demo/static/js/main.6f90280e.js.map",
+    "787.f055211e.chunk.js.map": "/react-demo/static/js/787.f055211e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb2de68a.css",
+    "static/js/main.6f90280e.js"
+  ]
+}
