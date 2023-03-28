@@ -1,0 +1,183 @@
+// MAIN
+
+.user-score {
+  position: absolute;
+  transition: bottom .7s;
+  opacity: .92;
+  color: #fff;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-size: 2rem;
+  // bottom: 155%;
+  margin-top: 9px;
+  margin-left: 100px;
+  font-family: font-poppins;
+  @media only screen and (min-width : 768px) {
+    font-size: 0.5rem;
+  }
+  
+  @media only screen and (max-width : 580px) {
+    font-size: 20px;  
+    margin-right: 400px; 
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    font-size: 2rem;  
+  }
+}
+
+.com-score {
+  position: absolute;
+  right: 100px;
+  margin-top: 9px;
+  color: #fff;
+  font-size: 2rem;
+  font-family: font-poppins;
+  @media only screen and (max-width : 580px) {
+    font-size: 20px;
+    margin-left: 400px;
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    font-size: 0.5rem;
+  }
+
+  @media only screen and (min-width : 768px) {
+    font-size: 2rem;
+  }
+  
+}
+
+// CARD
+
+.cards {
+  display: flex;
+  background-image: url('./assets/Galaxy-Dark-StarWar.jpg');
+  height: 100vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.card {
+  margin-top: 80px; 
+  max-width: 328px;
+  max-height: 500px;
+  @media only screen and (min-width : 768px) {
+    width: 75%;
+    background-color: #D3D3D3;
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    width: 50%;
+    background-color: #D3D3D3;
+  }
+  .card-header {
+    padding: 12px;
+    height:50px;
+    background-color: #FFBF00;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+  }
+  .card-image {
+    img {
+      width: 100%;
+    }
+  }
+  .card-body {
+    padding: 12px;
+    .category-item {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 10px 0;
+      background: #FFBF00;
+      font-family: "Raleway", sans-serif;
+      margin-bottom: 15px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+  }
+}
+
+// MESSAGE
+.p {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 20%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+
+  &.show {
+    display: block;
+  }
+
+  .message-result {
+    background-color: yellow;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.message-container {
+  .content {
+    text-align: center;
+    padding: 20px;
+    color:#FFBF00;
+    margin-right: 50px;
+    font-weight: 900;
+    font-size:25px;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+
+.button-play{
+background-color: #FFBF00;
+background-repeat:no-repeat;
+color:#000000;
+font-weight: bold;
+font-size: 20px;
+margin-right: 50px;
+text-decoration: none;
+}
+
+.button-reset{
+  background-color: #FFBF00;
+  background-repeat:no-repeat;
+  color:#000000;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+  }
